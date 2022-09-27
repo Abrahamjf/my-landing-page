@@ -9,7 +9,11 @@ export const Home = () => {
 		<React.Fragment>
 			<Navbar />
 			<Jumbotron />
-			<Card />
+			<Card
+			imageUrl="https://picsum.photos/200/200?random"
+			title ="Card's Title"
+			text = "Some quick example text to build on the card title and make up the bulk of the card's content."
+			 />
 		</React.Fragment>
 	);
 };
